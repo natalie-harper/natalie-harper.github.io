@@ -1,9 +1,77 @@
 body{
 margin:0;
-background-color: black;
+background-color: lightGray;
+font-family: tahoma;
+
 }
 header{
-  background-color: gray;
+  height:auto;
+  color: white;
+  background-color: lightblue;
   text-align: center;
-  height: 5%;
+  /*background-image: url(http://res.freestockphotos.biz/pictures/5/5188-a-single-tree-growing-on-a-rock-face-of-a-mountain-pv.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+}
+.subheader{
+  font-size: 25px;
+  padding-left: 20px;
+}
+
+main{
+  margin: 100px;
+}
+section{
+  /*border:1px solid yellow;*/
+  padding:25px;
+}
+#profile-pic{
+  padding-top:50px;
+}
+#name-intro{
+  padding:0px 200px 200px 200px;
+  font-size: 40px;
+  height: auto;
+}
+#corecompetencies{
+  text-align:center;
+  padding: 25px 25px 25px 25px;
+  /*padding top, right, bottom, left*/
+}
+.flex-container{
+  display: flex;
+  justify-content:space-around;
+  flex-wrap: wrap;
+}
+.box{
+
+}
+.col-sm{
+  border:1px solid red;
+}
+.col{
+  border: 2px solid green;
+  text-align: center;
+}
+
+.navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    /*align-items: center;*/
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+#profile-img{
+  margin:100px;
+  height: 150px;
+  border-radius: 50%;
+}
+.contact-img{
+  height: 150px;
 }
