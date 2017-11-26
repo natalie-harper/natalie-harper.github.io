@@ -1,13 +1,14 @@
 body{
 margin:0;
-background-color: lightGray;
+background-color: white;
 font-family: tahoma;
 
 }
 header{
   height:auto;
-  color: white;
-  background-color: lightblue;
+  /*color: white;*/
+  background: linear-gradient(gold, white);
+  /*background-color: lightblue;*/
   text-align: center;
   /*background-image: url(http://res.freestockphotos.biz/pictures/5/5188-a-single-tree-growing-on-a-rock-face-of-a-mountain-pv.jpg);
   background-repeat: no-repeat;
