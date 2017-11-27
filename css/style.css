@@ -22,6 +22,27 @@ header{
 main{
   margin: 100px;
 }
+/*css transition with words */
+/*.sub-intro:hover .word1,
+.sub-intro:hover .word2,
+.sub-intro:hover .word3,
+.sub-intro:hover .word4,
+{
+  transform: translateX(200px);
+}
+.word1 {
+  transition: all 1.5s linear;
+}
+.word2 {
+  transition: all 1.5s ease;
+}
+.word3 {
+  transition: all 1.5s ease-in;
+}
+.word4 {
+transition: all 1.5s cubic-bezier(0, 1, 0.98, 0);
+}*/
+
 section{
   /*border:1px solid yellow;*/
   padding:25px;
@@ -29,6 +50,8 @@ section{
 #profile-pic{
   padding-top:50px;
 }
+
+
 #name-intro{
   padding:0px 200px 200px 200px;
   font-size: 40px;
@@ -68,11 +91,19 @@ section{
     padding: .5rem 1rem;
 }
 
+/*scaling the profile img*/
 #profile-img{
-  margin:100px;
+  margin:150px 0px 50px 0px;
   height: 150px;
   border-radius: 50%;
+  transition-property: all;
+  transition:transform  1s;
 }
+#profile-img:hover {
+  transform: scale(1.5);
+}
+
+
 .contact-img{
   height: 150px;
 }
